@@ -14,6 +14,8 @@ allprojects {
 
 ```
 implementation 'com.github.LillteZheng:ZAppOpsHelper:v1.0.0'
+//命令行，需要关联，库用到
+implementation 'com.jaredrummler:android-shell:1.0.0'
 ```
  
  使用如下：
@@ -21,7 +23,6 @@ implementation 'com.github.LillteZheng:ZAppOpsHelper:v1.0.0'
  ```
  /**
 	* 保证你的应用有系统权限
-	* 然后让你的 build.gradle com.jaredrummler:android-shell:1.0.0
 	*/
 	ZAppOpsHelper.with(this)
 	.packageName("com.launcher.test")
