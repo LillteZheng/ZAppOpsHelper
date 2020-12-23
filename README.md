@@ -1,8 +1,22 @@
 # ZAppOpsHelper
  静默权限设置
  
- 代码如下:
+## 关联
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+```
+implementation 'com.github.LillteZheng:ZAppOpsHelper:v1.0.0'
+```
  
+ 使用如下：
  
  ```
  /**
